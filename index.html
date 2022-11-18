@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora Macro nutrientes</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>CALCULADORA MACRO NUTRIENTES</h1>
+            <img src="" alt="logo">
+        </div>
+    </header>
+
+    <div class="calc-container">
+        <form action="index.php" method="POST">
+            <fieldset>
+                <div class="fieldset-container">
+                    <h2>Calculadora</h2>
+                    <label for="nome">Seu nome: </label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="idade">Idade: </label>
+                    <input type="number" name="idade" id="idade">
+                    <label for="peso">Peso:</label>
+                    <input type="text" name="peso" id="peso">
+                    <label for="sexo">Sexo</label>
+                    <select name="sexo" id="sexo">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                    <label for="macro">Você quer</label>
+                    <select name="macro" id="macro">
+                        <option value="Perder">Perder peso</option>
+                        <option value="Ganhar">Ganhar peso</option>
+                        <option value="Manter">Manter peso</option>
+                    </select>
+                    <input type="submit" value="Calcular">
+            </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>Copyright 2022</p>
+            <h3>Gustavo Vieira e Pedro Oliveira</h3>
+        </div>
+    </footer>
+</body>
+</html>
