@@ -10,4 +10,5 @@ Contém toda a estilização das páginas.
 Onde fica todo o back-end da página, ele que manipula os dados e faz os cálculos.
 
 ## Calculo usado para os macro nutrientes
+Rerris Benedi
 
