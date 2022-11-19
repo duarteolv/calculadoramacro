@@ -9,3 +9,5 @@ Contém toda a estilização das páginas.
 ## Arquivo php
 Onde fica todo o back-end da página, ele que manipula os dados e faz os cálculos.
 
+## Calculo usado para os macro nutrientes
+
