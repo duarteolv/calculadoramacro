@@ -72,10 +72,11 @@ fieldset legend
     border-radius: 3px;
     text-decoration: none;
     font-weight: bold;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 45px;
     text-align: center;
     margin: 5px auto;
+    border: 0;
 }
 
 .button:hover
