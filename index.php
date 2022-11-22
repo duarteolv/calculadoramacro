@@ -14,13 +14,13 @@ switch ($sexo){
         {
             $bmr = (10 * $peso) + (6.25 * $altura) - (5 * $idade) + 5;
             echo "$nome <br>";
-            echo "Seu BMR é: " .$bmr;
+            echo "Seu BMR é: " .number_format($bmr);
             echo "<br>";
             echo "<br>";
 
             if($objetivo == 1) {
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
-                echo "Calorias necessárias para serem ingeridas: APROX: " .$cal;
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -32,18 +32,18 @@ switch ($sexo){
                 echo "<br>";
                 echo "<br>";
 
-                echo "Carboidratos: " .$carb;
+                echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
-                echo "Proteínas: " .$prot;
+                echo "Proteínas: ".number_format($prot). " g";
                 echo "<br>";
-                echo "Gordura: " .$gord;
+                echo "Gordura: " .number_format($gord) ." g";
                 echo "<br>";
            
             } else if ($objetivo == 2){
                 
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
 
-                echo "Calorias necessárias para serem ingeridas: APROX: " .$cal;
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -56,11 +56,12 @@ switch ($sexo){
                 echo "<br>";
 
 
-                echo "Carboidratos: " .$carb;
+                echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
-                echo "Proteínas: " .$prot;
+                echo "Proteínas: ".number_format($prot). " g";
                 echo "<br>";
-                echo "Gordura: " .$gord;
+                echo "Gordura: " .number_format($gord) ." g";
+                echo "<br>";
             }
             break;
         }
@@ -75,7 +76,7 @@ case 2:
 
             if($objetivo == 1) {
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
-                echo "Calorias necessárias para serem ingeridas: APROX: " .$cal;
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -88,18 +89,18 @@ case 2:
                 echo "<br>";
 
 
-                echo "Carboidratos: " .$carb;
+                echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
-                echo "Proteínas: " .$prot;
+                echo "Proteínas: ".number_format($prot). " g";
                 echo "<br>";
-                echo "Gordura: " .$gord;
+                echo "Gordura: " .number_format($gord) ." g";
                 echo "<br>";
            
             } else if ($objetivo == 2){
                 
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
 
-                echo "Calorias necessárias para serem ingeridas: APROX: " .$cal;
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -110,11 +111,12 @@ case 2:
                 echo "<br>";
                 echo "<br>";
 
-                echo "Carboidratos: " .$carb;
+                echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
-                echo "Proteínas: " .$prot;
+                echo "Proteínas: ".number_format($prot). " g";
                 echo "<br>";
-                echo "Gordura: " .$gord;
+                echo "Gordura: " .number_format($gord) ." g";
+                echo "<br>";
     }
     break;
 
