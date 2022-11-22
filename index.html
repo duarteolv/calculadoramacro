@@ -11,33 +11,38 @@
     <header>
         <div class="header-container">
             <h1>CALCULADORA MACRO NUTRIENTES</h1>
-            <img src="" alt="logo">
         </div>
     </header>
 
     <div class="calc-container">
         <form action="index.php" method="POST">
             <fieldset>
+                <legend>CALCULADORA</legend>
                 <div class="fieldset-container">
-                    <h2>Calculadora</h2>
                     <label for="nome">Seu nome: </label>
                     <input type="text" name="nome" id="nome">
+                    <br>
                     <label for="idade">Idade: </label>
                     <input type="number" name="idade" id="idade">
+                    <br>
                     <label for="peso">Peso:</label>
                     <input type="text" name="peso" id="peso">
+                    <br>
                     <label for="altura">Sua altura: </label>
                     <input type="text" name="altura" id="altura">
+                    <br>
                     <label for="sexo">Sexo</label>
                     <select name="sexo" id="sexo">
                         <option value="1">Masculino</option>
                         <option value="2">Feminino</option>
                     </select>
+                    <br>
                     <label for="objetivo">Você quer</label>
                     <select name="objetivo" id="objetivo">
                         <option value="1">Perder gordura</option>
                         <option value="2">Ganhar massa muscular</option>
                     </select>
+                    <br>
                     <label for="dias">Dias de atividade física na semana</label>
                     <select name="dias" id="dias">
                         <option value="1">1</option>
@@ -48,7 +53,8 @@
                         <option value="6">6</option>
                         <option value="7">7</option>
                     </select>
-                    <input type="submit" value="Calcular">
+                    <br>
+                    <input class = "button" type="submit" value="Calcular">
                 </div>
             </fieldset>
         </form>

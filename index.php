@@ -13,6 +13,7 @@ switch ($sexo){
     case 1:
         {
             $bmr = (10 * $peso) + (6.25 * $altura) - (5 * $idade) + 5;
+            echo "$nome <br>";
             echo "Seu BMR é: " .$bmr;
             echo "<br>";
             echo "<br>";
@@ -67,6 +68,7 @@ switch ($sexo){
 case 2: 
     {
         $bmr = (10 * $peso) + (6.25 * $altura) - (5 * $idade) - 161;
+            echo "$nome <br>";
             echo "Seu BMR é: " .$bmr;
             echo "<br>";
             echo "<br>";
