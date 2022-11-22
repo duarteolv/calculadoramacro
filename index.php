@@ -19,7 +19,7 @@ switch ($sexo){
             echo "<br>";
 
             if($objetivo == 1) {
-                $cal = ($bmr * ($dias/10) + 500 + $bmr);
+                $cal = ($bmr * ($dias/10) - 500 + $bmr);
                 echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
                 echo "<br>";
 
@@ -75,7 +75,7 @@ case 2:
             echo "<br>";
 
             if($objetivo == 1) {
-                $cal = ($bmr * ($dias/10) + 500 + $bmr);
+                $cal = ($bmr * ($dias/10) - 500 + $bmr);
                 echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
                 echo "<br>";
 
