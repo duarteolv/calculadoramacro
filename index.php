@@ -8,19 +8,24 @@ $sexo = $_REQUEST["sexo"];
 $objetivo = $_REQUEST["objetivo"];
 $dias = $_REQUEST["dias"];
 
+echo "<style> 
+
+background-color: #f21568;
+
+</style>";
 
 switch ($sexo){
     case 1:
         {
             $bmr = (10 * $peso) + (6.25 * $altura) - (5 * $idade) + 5;
-            echo "$nome <br>";
-            echo "Seu BMR é: " .number_format($bmr);
+           
+            echo "<h2> $nome seu BMR é: " .number_format($bmr). " Kcal";
             echo "<br>";
             echo "<br>";
 
             if($objetivo == 1) {
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
-                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+                echo "<h3> Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -30,6 +35,11 @@ switch ($sexo){
 
                 echo "<br>";
                 echo "<br>";
+                echo "<br>";
+
+                
+                echo "<h4> $nome, será necessário para você atingir seu objetivo consumir: ";
+
                 echo "<br>";
 
                 echo "Carboidratos: " .number_format($carb) ." g";
@@ -43,7 +53,7 @@ switch ($sexo){
                 
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
 
-                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -76,7 +86,7 @@ case 2:
 
             if($objetivo == 1) {
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
-                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
