@@ -24,8 +24,13 @@ switch ($sexo){
             echo "<br>";
 
             if($objetivo == 1) {
+<<<<<<< HEAD
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
                 echo "<h3> Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal";
+=======
+                $cal = ($bmr * ($dias/10) - 500 + $bmr);
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+>>>>>>> b1dd61ef2f8e7acf318aa57199b3d795a96a5c05
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -85,8 +90,13 @@ case 2:
             echo "<br>";
 
             if($objetivo == 1) {
+<<<<<<< HEAD
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
                 echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal";
+=======
+                $cal = ($bmr * ($dias/10) - 500 + $bmr);
+                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+>>>>>>> b1dd61ef2f8e7acf318aa57199b3d795a96a5c05
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
