@@ -20,7 +20,7 @@ switch ($sexo){
 
             if($objetivo == 1) {
                 $cal = ($bmr * ($dias/10) - 500 + $bmr);
-                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+                echo "<h3>Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal</h3>";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -32,6 +32,7 @@ switch ($sexo){
                 echo "<br>";
                 echo "<br>";
 
+                echo "<h3>$nome você deverá comer aproximadamente: </h3>";
                 echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
                 echo "Proteínas: ".number_format($prot). " g";
@@ -43,7 +44,7 @@ switch ($sexo){
                 
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
 
-                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+                echo "<h3>Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal</h3>";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -55,7 +56,7 @@ switch ($sexo){
                 echo "<br>";
                 echo "<br>";
 
-
+                echo "<h3>$nome você deverá comer aproximadamente: </h3>";
                 echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
                 echo "Proteínas: ".number_format($prot). " g";
@@ -76,7 +77,7 @@ case 2:
 
             if($objetivo == 1) {
                 $cal = ($bmr * ($dias/10) - 500 + $bmr);
-                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+                echo "<h3>Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal</h3>";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -88,7 +89,7 @@ case 2:
                 echo "<br>";
                 echo "<br>";
 
-
+                echo "<h3>$nome você deverá comer aproximadamente: </h3>";
                 echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
                 echo "Proteínas: ".number_format($prot). " g";
@@ -100,7 +101,7 @@ case 2:
                 
                 $cal = ($bmr * ($dias/10) + 500 + $bmr);
 
-                echo "Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " cal";
+                echo "<h3>Calorias necessárias para serem ingeridas: APROX: " .number_format($cal). " Kcal</h3>";
                 echo "<br>";
 
                 $carb = ($cal * 0.50) / 4;
@@ -111,6 +112,7 @@ case 2:
                 echo "<br>";
                 echo "<br>";
 
+                echo "<h3>$nome você deverá comer aproximadamente: </h3>";
                 echo "Carboidratos: " .number_format($carb) ." g";
                 echo "<br>";
                 echo "Proteínas: ".number_format($prot). " g";
