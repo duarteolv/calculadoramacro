@@ -27,7 +27,7 @@ footer
     margin-top: 90px;
 }
 
-footer p, h3
+footer p, h3, h5
 {
     padding: 20px 0;
     font-family: sans-serif;
@@ -86,7 +86,13 @@ fieldset legend
     background-color: rgb(86, 119, 30);
 }
 
-h4{
+h4,h5{
     text-align: justify;
     margin-left: 40px;
+}
+
+h5{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 160px;
 }
